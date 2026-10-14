@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL-3.0-only"
+
+[[mods]]
+modId="tfacfix"
+version="1.0.0"
+displayName="Terraforged Alex's Caves Fix"
+authors="Towns & Kingdoms"
+description='''Compatibility for UltraTerraForged 1.0.2 and Alex's Caves unofficial port 2.0.10 on NeoForge 1.21.1. Adapts biome placement in active UltraTerraForged worlds, restores underground chamber placement, protects cave areas from extra carving, and verifies /locateacbiome results.'''
+
+[[mixins]]
+config="tfacfix.mixins.json"
+
+[[dependencies.tfacfix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tfacfix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.219,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tfacfix]]
+modId="alexscaves"
+type="required"
+versionRange="[2.0.10,2.0.11)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tfacfix]]
+modId="ultraterraforged"
+type="required"
+versionRange="[1.0.2+1.21.1]"
+ordering="AFTER"
+side="BOTH"

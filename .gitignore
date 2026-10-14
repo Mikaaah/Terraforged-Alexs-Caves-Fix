@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+libs/*.jar
+runtime-libs/*.jar
+.idea/
+*.iml
+.vscode/
+*.log
+*.zip
+.DS_Store
+Thumbs.db

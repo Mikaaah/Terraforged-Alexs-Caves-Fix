@@ -1,0 +1,45 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = '1.0.0'
+group = 'nl.townsandkingdoms.tfacfix'
+base.archivesName = 'terraforged-alexs-caves-fix'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.withSourcesJar()
+
+neoForge {
+    version = '21.1.219'
+    runs {
+        server {
+            server()
+            programArgument '--nogui'
+            jvmArgument '-Xmx4G'
+            gameDirectory = file('run')
+            systemProperty 'tfacfix.integrationTest', System.getProperty('tfacfix.integrationTest', 'false')
+            systemProperty 'mixin.debug.export', 'true'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+    mods {
+        tfacfix { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    implementation files('libs/ultraterraforged-1.0.2+1.21.1-neoforge.jar')
+    implementation files('libs/alexscaves-2.0.10.jar')
+    runtimeOnly fileTree(dir: 'runtime-libs', include: '*.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+    options.compilerArgs += ['-Xlint:deprecation']
+}
+
+tasks.named('jar') {
+    manifest.attributes('Implementation-Title': "Terraforged Alex's Caves Fix", 'Implementation-Version': project.version)
+    from('LICENSE')
+}

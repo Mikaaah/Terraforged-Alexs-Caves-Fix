@@ -1,0 +1,27 @@
+name: Compatibility bug
+description: Report a generation, locator, startup, or carving issue.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: versions
+    attributes:
+      label: Mod and loader versions
+      description: Include the fix, UltraTerraForged, Alex's Caves port, Citadel, NeoForge, and TerraBlender if installed.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how to reproduce it
+      description: Include expected behavior, the seed, coordinates, preset, and whether chunks were newly generated. Confirm Generate Structures is enabled for missing chambers.
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: /tfacfix status output
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Attach relevant logs and screenshots. Remove private server addresses and personal information first.

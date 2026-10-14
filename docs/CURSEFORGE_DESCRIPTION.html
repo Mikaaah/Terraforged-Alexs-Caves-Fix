@@ -1,0 +1,77 @@
+<h1>Terraforged Alex&#x27;s Caves Fix</h1>
+
+<p><strong>Keep UltraTerraForged&#x27;s landscapes. Bring Alex&#x27;s Caves underground.</strong></p>
+
+<p>Want UltraTerraForged&#x27;s mountains, cliffs, and river valleys alongside Alex&#x27;s Caves? This compatibility add-on helps the unofficial NeoForge port&#x27;s cave biomes and native chambers generate correctly in UltraTerraForged worlds.</p>
+
+<p>Built for <strong>Minecraft 1.21.1 / NeoForge</strong>, with targeted fixes for placement filters, chamber generation, additional carving, and biome location commands.</p>
+
+<h2>What does it fix?</h2>
+
+<p><strong>Cave biome placement</strong> Adapts the port&#x27;s original depth and inland/ocean filters to UltraTerraForged terrain. Rarity settings, disabled biomes, spawn exclusions, dimension restrictions, and deliberate custom ranges remain respected.</p>
+
+<p><strong>Native cave chambers</strong> Stops UltraTerraForged&#x27;s surface-structure river restriction from incorrectly rejecting Alex&#x27;s underground chamber generators, while retaining their native placement and matching-biome checks.</p>
+
+<p><strong>Protection from additional carving</strong> Prevents UltraTerraForged&#x27;s additional carving, lining, and decorative block writes inside the six protected Alex&#x27;s Caves biomes. Ordinary noise caves remain enabled.</p>
+
+<p><strong>More useful biome locations</strong> In active UltraTerraForged worlds, <code>/locateacbiome</code> checks candidates against the actual biome source and provides an underground Y coordinate in its suggested teleport.</p>
+
+<h2>Supported caves</h2>
+
+<ul>
+<li>Magnetic Caves</li>
+<li>Primordial Caves</li>
+<li>Toxic Caves</li>
+<li>Abyssal Chasm</li>
+<li>Forlorn Hollows</li>
+<li>Candy Cavity</li>
+</ul>
+
+<h2>Requirements</h2>
+
+<ul>
+<li><strong>Minecraft 1.21.1</strong>, <strong>Java 21</strong>, and <strong>NeoForge 21.1.219 or newer within 21.1.x</strong></li>
+<li><strong>UltraTerraForged 1.0.2+1.21.1</strong></li>
+<li><strong>Alex&#x27;s Caves unofficial NeoForge port 2.0.10</strong>, by Raguto</li>
+<li>The <strong>Citadel unofficial port</strong> required by Alex&#x27;s Caves; 2.7.6 was used in testing</li>
+</ul>
+
+<p>Version 1.0.0 is pinned to the listed UltraTerraForged and Alex&#x27;s Caves versions. Other TerraForged forks and Alex&#x27;s Caves builds are not supported by this release.</p>
+
+<h2>Installation</h2>
+
+<ol>
+<li>Install the required mods and their dependencies.</li>
+<li>Add this fix to the <strong>client and server</strong> <code>mods</code> folders. For singleplayer, install it in your instance.</li>
+<li>Select the <strong>UltraTerraForged</strong> world type and your preferred terrain preset.</li>
+<li>Keep <strong>Generate Structures enabled</strong> for the native cave chambers.</li>
+<li>Use a <strong>new world or newly generated chunks</strong>. Existing chunks are not repaired.</li>
+</ol>
+
+<p>Back up an existing world before changing world-generation mods or settings. Run <code>/tfacfix status</code> with operator permissions to check that the fix is active.</p>
+
+<h2>Configuration</h2>
+
+<p>Settings appear at <code>config/tfacfix-common.toml</code> after the first launch. Biome placement, chamber placement, carving protection, and locator verification can be enabled or disabled separately. Restart after changing world-generation settings.</p>
+
+<p>The fix does not rewrite your Alex&#x27;s Caves biome JSON files. Original default filters work with the automatic adaptation; deliberate custom ranges remain respected.</p>
+
+<h2>What to expect</h2>
+
+<p>This mod fixes compatibility; it does <strong>not</strong> enlarge Alex&#x27;s Caves chambers or install a terrain preset. A cave-biome location can contain solid rock between native chambers. The locator verifies the biome, not a safe teleport destination.</p>
+
+<p>The profile activates only in an active UltraTerraForged Overworld. Carving protection follows the protected biome cells, not entire structure bounding boxes. Streams Reflowing compatibility is not included.</p>
+
+<p>Dedicated-server checks passed for all six biome types, a representative Magnetic Caves chamber, locator commands, and carving protection, with TerraBlender 4.1.0.8 present. Client rendering, shaders, multiplayer client connections, and full modpacks have not been validated.</p>
+
+<h2>Source and support</h2>
+
+<ul>
+<li><a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix">GitHub source</a></li>
+<li><a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues">Report an issue</a></li>
+<li><a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/VALIDATION.md">Validation details</a></li>
+</ul>
+
+<p>An independent compatibility add-on by <strong>Towns &amp; Kingdoms</strong>. Not affiliated with or endorsed by the original mod teams. Credit to the UltraTerraForged team, the original Alex&#x27;s Caves creators, and Raguto for the unofficial NeoForge port.</p>
+
+<p><strong>License: GPL-3.0-only.</strong> Modpack inclusion is welcome under the license terms.</p>

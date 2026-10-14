@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nl.townsandkingdoms.tfacfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClimateSamplerMixin",
+    "ConditionAccessor",
+    "NativeConditionMixin",
+    "BiomeSourceMixin",
+    "CaveCarvingMixin",
+    "CaveCarvingFactory",
+    "CaveStructureAccessor",
+    "CaveStructurePlacementMixin",
+    "ACCommandsMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}
