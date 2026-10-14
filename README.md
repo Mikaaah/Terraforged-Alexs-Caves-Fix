@@ -1,5 +1,3 @@
-<p align="center"><img src="assets/curseforge-logo.png" width="280" alt="A mountain cutaway above a glowing turquoise cave" /></p>
-
 # Terraforged Alex's Caves Fix
 
 **Keep UltraTerraForged's landscapes. Bring Alex's Caves underground.**
