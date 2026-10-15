@@ -10,3 +10,4 @@ runtime-libs/*.jar
 *.zip
 .DS_Store
 Thumbs.db
+validation/
