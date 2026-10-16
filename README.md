@@ -1,5 +1,10 @@
 # Terraforged Alex's Caves Fix
 
+[![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-5B8731?style=flat-square)](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix)
+[![NeoForge](https://img.shields.io/badge/Loader-NeoForge-D97724?style=flat-square)](https://neoforged.net/)
+[![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-3F78A8?style=flat-square)](CHANGELOG.md)
+[![GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-64748B?style=flat-square)](LICENSE)
+
 Compatibility between UltraTerraForged and the unofficial NeoForge port of Alex's Caves for Minecraft 1.21.1.
 
 [Download 1.0.0](downloads/terraforged-alexs-caves-fix-1.0.0-neoforge-1.21.1.jar?raw=true) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
