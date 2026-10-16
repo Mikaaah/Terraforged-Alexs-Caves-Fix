@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  -
+    name: "Project README"
+    url: "https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix#readme"
+    about: "Requirements, setup, known limitations and contribution guidance."
+  -
+    name: "Project status and support directory"
+    url: "https://github.com/Mikaaah/Mikaaah/blob/master/STATUS.md"
+    about: "Development status and links to the correct issue tracker."
+  -
+    name: "CurseForge download"
+    url: "https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix"
+    about: "Open this project's official CurseForge page."

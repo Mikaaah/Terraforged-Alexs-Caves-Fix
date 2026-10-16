@@ -1,27 +1,83 @@
-name: Compatibility bug
-description: Report a generation, locator, startup, or carving issue.
+name: "Bug report"
+description: "Report a reproducible problem with UltraTerraForged × Alex's Caves."
 title: "[Bug]: "
+labels:
+  - "bug"
+  - "needs-triage"
 body:
-  - type: textarea
-    id: versions
+  -
+    type: "markdown"
     attributes:
-      label: Mod and loader versions
-      description: Include the fix, UltraTerraForged, Alex's Caves port, Citadel, NeoForge, and TerraBlender if installed.
+      value: "Report problems with **UltraTerraForged × Alex's Caves** here. Check the [README](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix#readme) and existing reports first. Use the feature form for new ideas."
+  -
+    type: "checkboxes"
+    id: "checks"
+    attributes:
+      label: "Before submitting"
+      options:
+        -
+          label: "I searched existing issues and checked the project README."
+          required: true
+        -
+          label: "I removed tokens, passwords, personal data and private server details from my report and attachments."
+          required: true
+  -
+    type: "dropdown"
+    id: "area"
+    attributes:
+      label: "Affected area"
+      options:
+        - "Startup / crash"
+        - "Biome placement"
+        - "Cave chambers"
+        - "Carving conflicts"
+        - "Biome locator"
+        - "Configuration"
+        - "Documentation"
+        - "Other"
     validations:
       required: true
-  - type: textarea
-    id: reproduce
+  -
+    type: "textarea"
+    id: "versions"
     attributes:
-      label: What happened and how to reproduce it
-      description: Include expected behavior, the seed, coordinates, preset, and whether chunks were newly generated. Confirm Generate Structures is enabled for missing chambers.
+      label: "Versions and environment"
+      description: "Fix, Minecraft, NeoForge, UltraTerraForged, Alex's Caves port, Citadel and TerraBlender versions, if installed."
     validations:
       required: true
-  - type: textarea
-    id: status
+  -
+    type: "textarea"
+    id: "behavior"
     attributes:
-      label: /tfacfix status output
-  - type: textarea
-    id: logs
+      label: "Expected and actual behavior"
+      description: "Describe what you expected and what happened."
+    validations:
+      required: true
+  -
+    type: "textarea"
+    id: "reproduce"
     attributes:
-      label: Logs and screenshots
-      description: Attach relevant logs and screenshots. Remove private server addresses and personal information first.
+      label: "Steps to reproduce"
+      description: "Give numbered steps and a minimal example where possible."
+    validations:
+      required: true
+  -
+    type: "textarea"
+    id: "world"
+    attributes:
+      label: "World and generation details"
+      description: "Seed, coordinates including Y, terrain preset and whether chunks are newly generated. Include relevant configuration. Include /tfacfix status output and whether Generate Structures is enabled."
+    validations:
+      required: true
+  -
+    type: "textarea"
+    id: "logs"
+    attributes:
+      label: "Logs and screenshots"
+      description: "Attach relevant logs or screenshots. Remove private information before uploading."
+  -
+    type: "textarea"
+    id: "isolation"
+    attributes:
+      label: "Compatibility and additional context"
+      description: "List relevant mods, integrations or configuration changes. Note whether a minimal setup reproduces the issue."

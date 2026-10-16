@@ -1,5 +1,7 @@
 # UltraTerraForged × Alex's Caves
 
+[Project status](https://github.com/Mikaaah/Mikaaah/blob/master/STATUS.md) · [Report a bug](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=bug_report.yml) · [Suggest a feature](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=feature_request.yml) · [Questions](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=question.yml) · [CurseForge download](https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix)
+
 [![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-5B8731?style=flat-square)](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix)
 [![NeoForge](https://img.shields.io/badge/Loader-NeoForge-D97724?style=flat-square)](https://neoforged.net/)
 [![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-3F78A8?style=flat-square)](CHANGELOG.md)
