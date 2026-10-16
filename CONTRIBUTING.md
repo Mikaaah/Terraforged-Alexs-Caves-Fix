@@ -1,4 +1,4 @@
-# Contributing to Terraforged Alex's Caves Fix
+# Contributing to UltraTerraForged × Alex's Caves
 
 This is a focused compatibility addon for **UltraTerraForged** and the unofficial **Alex's Caves NeoForge port** on Minecraft 1.21.1.
 
