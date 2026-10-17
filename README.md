@@ -9,7 +9,7 @@
 
 Compatibility between UltraTerraForged and the unofficial NeoForge port of Alex's Caves for Minecraft 1.21.1.
 
-📚 **[Browse the documentation wiki](wiki/Home.md)** · [Installation](wiki/Getting-Started.md) · [Troubleshooting](wiki/Troubleshooting.md)
+📚 **[Browse the documentation wiki](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home)** · [Installation](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Getting-Started) · [Troubleshooting](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Troubleshooting)
 
 [Download 1.0.0](downloads/terraforged-alexs-caves-fix-1.0.0-neoforge-1.21.1.jar?raw=true) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
 
