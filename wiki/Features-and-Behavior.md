@@ -13,6 +13,6 @@ Supports Magnetic Caves, Primordial Caves, Toxic Caves, Abyssal Chasm, Forlorn H
 
 It does not change the native size of Alex's Caves chambers or regenerate old chunks. A located underground cave biome may have solid blocks between open chambers.
 
-For exact boundaries, read [Compatibility & Limitations](Compatibility-and-Limitations.md).
+For exact boundaries, read [Compatibility & Limitations](Compatibility-and-Limitations).
 
-[← Wiki Home](Home.md)
+[← Wiki Home](Home)

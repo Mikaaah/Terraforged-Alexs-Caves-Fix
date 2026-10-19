@@ -1,19 +1,18 @@
-# UltraTerraForged × Alex's Caves
+<p align="center"><img src="docs/assets/banner.png" alt="UltraTerraForged × Alex’s Caves" width="100%"></p>
 
-[Project status](https://github.com/Mikaaah/Mikaaah/blob/master/STATUS.md) · [Report a bug](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=bug_report.yml) · [Suggest a feature](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=feature_request.yml) · [Questions](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues/new?template=question.yml) · [CurseForge download](https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix)
+<p align="center"><a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix"><img src="docs/assets/logo.png" alt="UltraTerraForged × Alex’s Caves logo" width="160"></a></p>
 
-[![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-5B8731?style=flat-square)](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix)
-[![NeoForge](https://img.shields.io/badge/Loader-NeoForge-D97724?style=flat-square)](https://neoforged.net/)
-[![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-3F78A8?style=flat-square)](CHANGELOG.md)
-[![GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-64748B?style=flat-square)](LICENSE)
+<h1 align="center">UltraTerraForged × Alex’s Caves</h1>
 
-Compatibility between UltraTerraForged and the unofficial NeoForge port of Alex's Caves for Minecraft 1.21.1.
+<p align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix">CurseForge</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki">Wiki</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues">Report an issue</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md">Changelog</a></p>
 
-📚 **[Browse the documentation wiki](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home)** · [Installation](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Getting-Started) · [Troubleshooting](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Troubleshooting)
+<p align="center"><img alt="Minecraft 1.21.1" src="https://img.shields.io/badge/Minecraft-1.21.1-568736?style=flat-square"> <img alt="NeoForge" src="https://img.shields.io/badge/Loader-NeoForge-d77828?style=flat-square"></p>
 
-[Download 1.0.0](downloads/terraforged-alexs-caves-fix-1.0.0-neoforge-1.21.1.jar?raw=true) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
+Bring Alex’s Caves’ underground biomes and native chambers into UltraTerraForged worlds.
 
-## Features
+[Download 1.0.0](downloads/terraforged-alexs-caves-fix-1.0.0-neoforge-1.21.1.jar?raw=true)
+
+## What it adds
 
 - Adapts cave-biome placement to UltraTerraForged terrain while preserving custom placement settings.
 - Allows Alex's Caves' native underground chambers to pass UltraTerraForged's surface river-placement restriction.
@@ -34,44 +33,21 @@ Supports Magnetic Caves, Primordial Caves, Toxic Caves, Abyssal Chasm, Forlorn H
 
 Install the Citadel port required by Alex's Caves as well.
 
-## Installation
+## Setup
 
 Install the fix alongside the required mods on both client and server. Select the **UltraTerraForged** world type and keep **Generate Structures** enabled for native cave chambers.
 
 Generation changes apply to new chunks. Existing chunks are not regenerated.
 
-## Commands and configuration
-
-```mcfunction
-/tfacfix status
-/locateacbiome primordial_caves
-/locateacbiome magnetic_caves
-```
-
-`/tfacfix status` requires operator permission and reports the active compatibility profile.
-
-Settings are in `config/tfacfix-common.toml`. Biome placement, chamber placement, carving protection and locator verification can be toggled separately. Restart after changing world-generation settings.
-
-## Compatibility
+## Know before you install
 
 The fix activates in UltraTerraForged Overworlds. Vanilla worlds, the Nether and the End keep their normal biome sampling.
 
 Native chamber sizes are unchanged. The locator finds a cave biome, which may contain solid rock between chambers; it does not guarantee a safe teleport destination.
 
-## Building
+## Guides
 
-Requires Java 21. Place these dependency files in `libs/`:
-
-- `alexscaves-2.0.10.jar`
-- `ultraterraforged-1.0.2+1.21.1-neoforge.jar`
-
-Run `./gradlew build` on Linux/macOS or `gradlew.bat build` on Windows. Output is written to `build/libs/`. Dependency JARs are not included in this repository.
-
-
-## Contributing
-
-Found a bug or want to improve the project? Read the [contribution guide](CONTRIBUTING.md) for reporting details, testing expectations and pull requests.
-
+[Features](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Features-and-Behavior) · [Configuration](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Configuration-and-Commands) · [Compatibility](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Compatibility-and-Limitations) · [Troubleshooting](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Troubleshooting)
 
 ## Credits and license
 

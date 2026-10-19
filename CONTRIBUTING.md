@@ -23,3 +23,6 @@ Avoid publishing personal information or private server details in logs.
 - Describe the worlds/presets actually tested and any remaining limitations.
 
 Open an issue before large behavioral changes so the approach can be discussed.
+
+
+Build instructions and technical checks are in [the contributor reference](docs/DEVELOPMENT.md).

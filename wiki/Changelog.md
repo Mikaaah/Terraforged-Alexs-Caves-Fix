@@ -10,4 +10,4 @@
 
 ---
 
-[← Wiki Home](Home.md) · [Canonical changelog](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md)
+[← Wiki Home](Home) · [Canonical changelog](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md)

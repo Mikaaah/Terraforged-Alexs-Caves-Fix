@@ -23,4 +23,4 @@ Restart the game or server after adjusting world-generation or flow settings. Fo
 3. Test `/locateacbiome primordial_caves` or `/locateacbiome magnetic_caves` in newly generated regions.
 4. Use screenshots and exact coordinates when reporting a cave placement issue.
 
-[← Wiki Home](Home.md)
+[← Wiki Home](Home)
