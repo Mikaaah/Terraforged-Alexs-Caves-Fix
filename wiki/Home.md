@@ -1,7 +1,5 @@
 <p align="center"><img src="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/raw/refs/heads/main/docs/assets/banner.png" alt="UltraTerraForged × Alex’s Caves" width="100%"></p>
 
-<p align="center"><a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix"><img src="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/raw/refs/heads/main/docs/assets/logo.png" alt="UltraTerraForged × Alex’s Caves logo" width="160"></a></p>
-
 <h1 align="center">UltraTerraForged × Alex’s Caves</h1>
 
 <p align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix">CurseForge</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki">Wiki</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues">Report an issue</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md">Changelog</a></p>
