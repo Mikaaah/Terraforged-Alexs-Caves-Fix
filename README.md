@@ -21,7 +21,7 @@ Supports Magnetic Caves, Primordial Caves, Toxic Caves, Abyssal Chasm, Forlorn H
 
 ## Using Wildshape / TNKTerraForged?
 
-The TNK terrain fork’s NeoForge 1.21.1 edition integrates this adapter. Use the integrated version or this standalone `tfacfix` JAR; remove the standalone JAR when using the integrated equivalent to avoid duplicate Mixins. See [the fork’s compatibility instructions](https://github.com/Mikaaah/ultraterraforged-personal#readme).
+The TNK terrain fork’s NeoForge 1.21.1 edition integrates this adapter. Use the integrated version or this standalone `tfacfix` JAR; remove the standalone JAR when using the integrated equivalent to avoid duplicate Mixins. See [the fork’s compatibility instructions](https://github.com/Mikaaah/Towns-and-Kingdoms-Wildshape#readme).
 
 ## Requirements
 
