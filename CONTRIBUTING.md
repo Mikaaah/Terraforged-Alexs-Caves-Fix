@@ -19,10 +19,6 @@ Avoid publishing personal information or private server details in logs.
 - Keep fixes scoped to compatibility; avoid changing original cave dimensions or unrelated world generation.
 - Check that fixes don't affect vanilla Overworld, Nether or End behavior.
 - Document configuration or command changes in the README and CHANGELOG.
-- Follow the Java 21 [build instructions](README.md#building). Original dependency JARs are not redistributed.
 - Describe the worlds/presets actually tested and any remaining limitations.
 
 Open an issue before large behavioral changes so the approach can be discussed.
-
-
-Build instructions and technical checks are in [the contributor reference](docs/DEVELOPMENT.md).

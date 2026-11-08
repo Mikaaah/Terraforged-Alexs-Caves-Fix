@@ -7,3 +7,9 @@
 - [Compatibility](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Compatibility-and-Limitations)
 - [Troubleshooting](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Troubleshooting)
 - [Changelog](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Changelog)
+
+### Community
+
+- [All mod projects](https://mikaaah.github.io/TownsAndKingdoms/projects/)
+- [Join Discord](https://discord.gg/CRYk3uDPVt)
+- [Report an issue](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)

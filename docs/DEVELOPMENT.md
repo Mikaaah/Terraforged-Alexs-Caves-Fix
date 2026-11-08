@@ -1,10 +1,7 @@
-# Contributor reference
+# Project reference
 
-## Building
+[Player guide](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki) · [Release notes](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md) · [Support](../SUPPORT.md)
 
-Requires Java 21. Place these dependency files in `libs/`:
+For behavior and compatibility, use the guide matching your installed version. Include exact versions and reproduction steps when reporting a problem.
 
-- `alexscaves-2.0.10.jar`
-- `ultraterraforged-1.0.2+1.21.1-neoforge.jar`
-
-Run `./gradlew build` on Linux/macOS or `gradlew.bat build` on Windows. Output is written to `build/libs/`. Dependency JARs are not included in this repository.
+[All projects](https://mikaaah.github.io/TownsAndKingdoms/projects/) · [Discord](https://discord.gg/CRYk3uDPVt)

@@ -1,3 +1,5 @@
+[← Guide home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki) · [Project](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix) · [Get help](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
+
 # Getting Started
 
 ## Requirements
@@ -22,8 +24,8 @@ Generation changes apply to new chunks. Existing chunks are not regenerated.
 
 ## Next steps
 
-- [Features & Behavior](Features-and-Behavior) — what the adapter does.
-- [Configuration & Commands](Configuration-and-Commands) — settings and diagnostics.
-- [Compatibility & Limitations](Compatibility-and-Limitations) — what this add-on does not fix.
+- [Features & Behavior](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Features-and-Behavior) — what the adapter does.
+- [Configuration & Commands](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Configuration-and-Commands) — settings and diagnostics.
+- [Compatibility & Limitations](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Compatibility-and-Limitations) — what this add-on does not fix.
 
-[← Wiki Home](Home)
+[← Wiki Home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home)

@@ -1,3 +1,5 @@
+[← Guide home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki) · [Project](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix) · [Get help](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
+
 # Configuration & Commands
 
 ## Commands and configuration
@@ -23,4 +25,4 @@ Restart the game or server after adjusting world-generation or flow settings. Fo
 3. Test `/locateacbiome primordial_caves` or `/locateacbiome magnetic_caves` in newly generated regions.
 4. Use screenshots and exact coordinates when reporting a cave placement issue.
 
-[← Wiki Home](Home)
+[← Wiki Home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home)

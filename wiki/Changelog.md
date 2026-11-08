@@ -1,3 +1,5 @@
+[← Guide home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki) · [Project](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix) · [Get help](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
+
 # Changelog
 
 ## 1.0.0
@@ -10,4 +12,4 @@
 
 ---
 
-[← Wiki Home](Home) · [Canonical changelog](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md)
+[← Wiki Home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home) · [Canonical changelog](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md)

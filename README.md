@@ -2,13 +2,11 @@
 
 <h1 align="center">UltraTerraForged × Alex’s Caves</h1>
 
-<p align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix">CurseForge</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki">Wiki</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues">Report an issue</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md">Changelog</a></p>
+<p align="center"><strong>Bring the six underground cave biomes and native chambers into UltraTerraForged terrain.</strong></p>
 
-<p align="center"><img alt="Minecraft 1.21.1" src="https://img.shields.io/badge/Minecraft-1.21.1-568736?style=flat-square"> <img alt="NeoForge" src="https://img.shields.io/badge/Loader-NeoForge-d77828?style=flat-square"></p>
+<p align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/ultraterraforged-alexs-caves-fix">Downloads</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki">Player guide</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues">Report an issue</a> · <a href="https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/blob/main/CHANGELOG.md">Changelog</a> · <a href="https://discord.gg/CRYk3uDPVt">Discord</a></p>
 
-Bring Alex’s Caves’ underground biomes and native chambers into UltraTerraForged worlds.
-
-[Download 1.0.0](downloads/terraforged-alexs-caves-fix-1.0.0-neoforge-1.21.1.jar?raw=true)
+<p align="center"><img src="https://img.shields.io/badge/Minecraft-1.21.1-5b8731?style=flat-square" alt="Minecraft 1.21.1"> <img src="https://img.shields.io/badge/NeoForge-d77828?style=flat-square" alt="NeoForge"> <a href="https://mikaaah.github.io/TownsAndKingdoms/projects/"><img src="https://img.shields.io/badge/Towns_%26_Kingdoms-Modding_Hub-7f384a?style=flat-square" alt="Towns & Kingdoms Modding Hub"></a></p>
 
 ## What it adds
 
@@ -59,3 +57,11 @@ By Towns & Kingdoms.
 - [Alex's Caves NeoForge port](https://github.com/Raguto/AlexsCaves-1.21.1) by Raguto and contributors, based on the original Alex's Caves.
 
 [GPL-3.0-only](LICENSE).
+
+## Pull up a chair
+
+Questions, builds, feedback, server news and the occasional wildly overambitious factory: join the **Towns & Kingdoms Modding Hub**.
+
+[![Join the Towns & Kingdoms Discord](https://i.imgur.com/Ojgcccm.png)](https://discord.gg/CRYk3uDPVt)
+
+**[Join Discord](https://discord.gg/CRYk3uDPVt)** · [Explore all projects](https://mikaaah.github.io/TownsAndKingdoms/projects/) · [CurseForge projects](https://www.curseforge.com/members/mikaaah/projects)

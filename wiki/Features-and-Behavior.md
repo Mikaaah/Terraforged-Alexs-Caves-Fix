@@ -1,3 +1,5 @@
+[← Guide home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki) · [Project](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix) · [Get help](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/issues)
+
 # Features & Behavior
 
 ## Features
@@ -13,6 +15,6 @@ Supports Magnetic Caves, Primordial Caves, Toxic Caves, Abyssal Chasm, Forlorn H
 
 It does not change the native size of Alex's Caves chambers or regenerate old chunks. A located underground cave biome may have solid blocks between open chambers.
 
-For exact boundaries, read [Compatibility & Limitations](Compatibility-and-Limitations).
+For exact boundaries, read [Compatibility & Limitations](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Compatibility-and-Limitations).
 
-[← Wiki Home](Home)
+[← Wiki Home](https://github.com/Mikaaah/Terraforged-Alexs-Caves-Fix/wiki/Home)
